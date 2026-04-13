@@ -1,0 +1,535 @@
+<!--  메인 html  -->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> the-edit </title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css"> <!-- css 연결 -->
+
+    <script src="https://kit.fontawesome.com/6626e1a178.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header>
+
+        <div class="nav-bar">
+            <h1 class="logo">
+                <img src="/assets/images/edit-logo.png" alt="the edit 로고">
+            </h1>
+
+            <button class="menu-open-btn" aria-label="메뉴 열기">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+    </header>
+
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+
+        <nav class="menu-overlay">
+
+            <div class="menu-header">
+                <img src="/assets//images//edit-logo2.png" alt="메뉴 로고" class="menu-logo">
+
+                <button class="menu-close-btn" aria-label="메뉴 닫기">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            
+            <div class="search-bar">
+                <button class="search-btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" placeholder="검색어 입력">
+            </div>
+
+            <ul class="main-menu">
+                <li><a href="#">TECH</a></li>
+                <li><a href="#">EAT</a></li>
+                <li><a href="#">STYLE</a></li>
+                <li><a href="#">CULTURE</a></li>
+                <li><a href="#">LIFE</a></li>
+                <li><a href="#">EDITOR'S PICK</a></li>
+            </ul>
+
+            <ul class="sub-menu">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">EDITORS</a></li>
+                <li><a href="#">NEWSLETTER</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">TEFF</a></li>
+            </ul>
+
+        </nav>
+
+
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+    <section class="hero-carousel">
+        <div class="carousel-container">
+            
+            <div class="carousel-track">
+
+                <article class="carousel-item">
+                    <div class="slide-overlay">
+                        <div class="slide-bg">
+                            <picture>
+                                <img src="/assets/images/1000_2_showthum.jpg" alt="쇼미더머니가 힙합을 망쳤어">
+                            </picture>
+                        </div>
+                        <div class="overlay-top">
+                            <span class="category">CULTURE</span>
+                            <h2 class="main-title">쇼미더머니가 14년동안 '국힙'에 끼친 영향</h2>
+                            <p class="sub-title">쇼미는 한국 힙합을 망쳤을까?</p>
+                            <span class="date">2026. 03. 30</span>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="editor-info">
+                                <img src="/assets/images/630_geda.jpg" alt="최승인 에디터" class="editor-avatar">
+                                <span class="editor-name">최승인</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            
+                <article class="carousel-item">
+                    <div class="slide-overlay">
+                        <div class="slide-bg">
+                            <picture>
+                                <img src="/assets/images/apple-50-nam-177.webp" alt="애플 50주년">
+                            </picture>
+                        </div>
+                        <div class="overlay-top">
+                            <span class="category">TECH</span>
+                            <h2 class="main-title">애플 50주년, 애플을 만든 10대 사건</h2>
+                            <p class="sub-title">애플에서 쫓겨난 잡스로부터 애플 실리콘까지</p>
+                            <span class="date">2026. 03. 31</span>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="editor-info">
+                                <img src="/assets/images/500_authorkudokun_profile.jpg" alt="이주형 에디터" class="editor-avatar">
+                                <span class="editor-name">이주형</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="carousel-item">
+                    <div class="slide-overlay">
+                        <div class="slide-bg">
+                            <picture>
+                                <img src="/assets/images/lil.webp" alt="4월 1주차 신상">
+                            </picture>
+                        </div>
+                        <div class="overlay-top">
+                            <span class="category">LIFE</span>
+                            <h2 class="main-title">[새로 나왔] 4월 1주차 신상 리스트</h2>
+                            <p class="sub-title">신개념 다마고치부터 계란 가방까지</p>
+                            <span class="date">2026. 03. 31</span>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="editor-info">
+                                <img src="/assets/images/800_the.jpg" alt="디에디트" class="editor-avatar">
+                                <span class="editor-name">에디트</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="carousel-item">
+                    <div class="slide-overlay">
+                        <div class="slide-bg">
+                            <picture>
+                                <img src="/assets/images/1600_retouched_-00161.jpg" alt="라면 오타쿠 셋이 연남동에 모였다">
+                            </picture>
+                        </div>
+                        <div class="overlay-top">
+                            <span class="category">EAT</span>
+                            <h2 class="main-title">라멘 오타쿠 셋이 연남동에 모였다</h2>
+                            <p class="sub-title">라멘괴인 웅성이 기획한 한일라면 팝업</p>
+                            <span class="date">2026. 04. 02</span>
+                        </div>
+                        <div class="overlay-bottom">
+                            <div class="editor-info">
+                                <img src="/assets/images/editorb.jpeg" alt="김석준 에디터" class="editor-avatar">
+                                <span class="editor-name">김석준</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+    <section class="pick-slider">
+        <h2 class="section-title">EDITOR'S PICK</h2>
+        
+        <div class="pick-slider-container">
+            <div class="pick-slider-track">
+                
+                <article class="pick-item">
+                    <div class="pick-thumb">
+                        <img src="/assets/images/1000_yean-768x960.jpg" alt="연말 결산 리스트">
+                    </div>
+                    
+                    <div class="pick-content">
+                        <span class="pick-category">EDITOR'S PICK</span>
+                        <h3 class="pick-title">[PICK] 에디터 7인이 뽑은 연말 결산.list</h3>
+                        <p class="pick-desc">패션, 카페, 식당, 영화, 드라마 등 총 65가지 리스트</p>
+                        <time class="pick-date">2025. 12. 30</time>
+                        
+                        <div class="pick-editor">
+                            <img src="/assets/images/editorb.jpeg" alt="김석준 에디터" class="editor-img">
+                            <span class="editor-name">김석준</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pick-item">
+                    <div class="pick-thumb">
+                        <img src="/assets/images/2025awards_main_2-768x1151.jpg" alt="디에디트 어워즈">
+                    </div>
+                    
+                    <div class="pick-content">
+                        <span class="pick-category">EDITOR'S PICK</span>
+                        <h3 class="pick-title">2025 디에디트 어워즈</h3>
+                        <p class="pick-desc">디에디트가 뽑은 2025년의 20가지 키워드</p>
+                        <time class="pick-date">2025. 12. 18</time>
+                        
+                        <div class="pick-editor">
+                            <img src="/assets/images/800_the.jpg" alt="디에디트" class="editor-img">
+                            <span class="editor-name">디에디트</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="pick-item">
+                    <div class="pick-thumb">
+                        <img src="/assets/images/1600_3-768x960.jpg" alt="추석에 뭐 먹었어?">
+                    </div>
+                    
+                    <div class="pick-content">
+                        <span class="pick-category">EDITOR'S PICK</span>
+                        <h3 class="pick-title">[PICK] 추석에 뭐 먹었어?</h3>
+                        <p class="pick-desc">에디터들이 추석에 먹은 음식 9</p>
+                        <time class="pick-date">2025. 12. 16</time>
+                        
+                        <div class="pick-editor">
+                            <img src="/assets/images/editorb.jpeg" alt="김석준 에디터" class="editor-img">
+                            <span class="editor-name">김석준</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+
+    <section class="post-list-container">
+
+        <div class="post-group">
+            <article class="post-item is-large pos-1">
+                <div class="large-bg"><img src="/assets/images/wph_top.webp" alt=""></div>
+                <div class="post-content">
+                    <div class="post-top">
+                        <span class="category">LIFE</span>
+                        <h2 class="post-title">봄이잖아, 초보 식집사를 위한 식물 가게 4</h2>
+                        <p class="post-desc">봄이다, 화분을 들이자</p>
+                        <span class="post-date">2026. 03. 25</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/1000_bokyung.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">길보경</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-2">
+                <div class="post-thumb"><img src="/assets/images/1-zoom.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">TECH</span>
+                        <h2 class="post-title">시분침이 없는 시계, 발뮤다 더 클락</h2>
+                        <p class="post-desc">어떤 의미에서는 초심으로 돌아갔다?</p>
+                        <span class="post-date">2026. 03. 24</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/500_authorkudokun_profile.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">이주형</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-3">
+                <div class="post-thumb"><img src="/assets/images/1600_paddock-duo-charger-0010031-37-above-wm-3-0-0-2000-2000-q99_g.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">TECH</span>
+                        <h2 class="post-title">[새로나왔] 3월 4주차 신상 리스트</h2>
+                        <p class="post-desc">에어팟 맥스2부터 발뮤다 시계까지</p>
+                        <span class="post-date">2026. 03. 23</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/800_the.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">에디트</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-4">
+                <div class="post-thumb"><img src="/assets/images/1600_retouched_-09827-1086x1536.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">EAT</span>
+                        <h2 class="post-title">뭔가 다른 한국인의 밥상, 국밥 맛집 9</h2>
+                        <p class="post-desc">수개월 동안 모은 국밥 리스트</p>
+                        <span class="post-date">2026. 03. 21</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/editorb.jpeg" alt="" class="editor-thumb">
+                        <span class="editor-name">김석준</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-5">
+                <div class="post-thumb"><img src="/assets/images/amr.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">STYLE</span>
+                        <h2 class="post-title">올해 내 추구미는 이걸로 정했다, 스타일 추천 4</h2>
+                        <p class="post-desc">일단 하나만 바꿔보자. 실패해도 괜찮은 입문템</p>
+                        <span class="post-date">2026. 03. 19</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/jung.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">지정현</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="post-group">
+            <article class="post-item is-large pos-6">
+                <div class="large-bg"><img src="/assets/images/3_new.webp" alt=""></div>
+                <div class="post-content">
+                    <div class="post-top">
+                        <span class="category">EAT</span>
+                        <h2 class="post-title">말차 가고 호지차 왔다, 호지차 카페 5</h2>
+                        <p class="post-desc">호지차 붐이 왔습니다.</p>
+                        <span class="post-date">2026. 03. 17</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/profile_profile_IMG_9813.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">박주영</span>
+                    </div>
+                </div>
+            </article>
+
+            <div class="green-bg">
+                <article class="post-item is-small pos-7">
+                <div class="post-thumb"><img src="/assets/images/1600_354d90ddfbde73af0ab032a8b542c848.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">TECH</span>
+                        <h2 class="post-title">[새로나왔] 3월 3주차 신상 리스트</h2>
+                        <p class="post-desc">토요타 마우스부터 세븐일레븐 스무디까지</p>
+                        <span class="post-date">2026. 03. 16</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/800_the.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">에디트</span>
+                    </div>
+                </div>
+                </article>
+
+                <article class="post-item is-small pos-8">
+                    <div class="post-thumb"><img src="/assets/images/alphago_top.webp" alt=""></div>
+                    <div class="post-content">
+                        <div class="text-group">
+                            <span class="category">TECH</span>
+                            <h2 class="post-title">이세돌 VS 알파고 대국 10주년</h2>
+                            <p class="post-desc">2016년 3월 9일, 그날의 이야기</p>
+                            <span class="post-date">2026. 03. 12</span>
+                        </div>
+                        <div class="post-editor">
+                            <img src="/assets/images/b_IMG_0284-300x300-1.jpg" alt="" class="editor-thumb">
+                            <span class="editor-name">최호섭</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-item is-small pos-9">
+                    <div class="post-thumb"><img src="/assets/images/coffee_top-1260x1536.webp" alt=""></div>
+                    <div class="post-content">
+                        <div class="text-group">
+                            <span class="category">EAT</span>
+                            <h2 class="post-title">코스트코 가성비 원두 최강자전 6</h2>
+                            <p class="post-desc">직접 사서 다 마셔봤습니다</p>
+                            <span class="post-date">2026. 03. 12</span>
+                        </div>
+                        <div class="post-editor">
+                            <img src="/assets/images/500_authorsjb.jpg" alt="심재범 에디터" class="editor-thumb">
+                            <span class="editor-name">심재범</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="post-item is-small pos-10">
+                <div class="post-thumb"><img src="/assets/images/1600_487202866_1077305237772245_6872586592699624387_n-1536x1024.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">STYLE</span>
+                        <h2 class="post-title">브랜드스토리: 레스포색, 다시 찾아온 전성기</h2>
+                        <p class="post-desc">그 시절, 우리가 좋아했던 레스포삭</p>
+                        <span class="post-date">2026. 03. 10</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/김고운-프로필-흑백-보정.webp" alt="김고운 에디터" class="editor-thumb">
+                        <span class="editor-name">김고운</span>
+                    </div>
+                </div>
+                </article>
+            </div>
+        </div>
+
+        <div class="post-group">
+            <article class="post-item is-large pos-11">
+                <div class="large-bg"><img src="/assets/images/1600_ab62a499d60fdca1d4ab934d726bcc38.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="post-top">
+                        <span class="category">LIFE</span>
+                        <h2 class="post-title">[새로나왔] 3월 2주차 신상 리스트</h2>
+                        <p class="post-desc">이효리 요가복부터 살구 호도과자까지</p>
+                        <span class="post-date">2026. 03. 09</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/800_the.jpg" alt="" class="editor-thumb">
+                        <span class="editor-name">에디트</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-12">
+            <div class="post-thumb"><img src="/assets/images/1600_fq25gn9he1_gallery_pc.jpg" alt=""></div>
+            <div class="post-content">
+                <div class="text-group">
+                    <span class="category">TECH</span>
+                    <h2 class="post-title">올해도 역대급 더위? AI 에어컨</h2>
+                    <p class="post-desc">원래 3월부터 준비해야 된다</p>
+                    <span class="post-date">2026. 03. 06</span>
+                </div>
+                <div class="post-editor">
+                    <img src="/assets/images/500_author747.jpg" alt="김정현 에디터" class="editor-thumb">
+                    <span class="editor-name">김정현</span>
+                </div>
+            </div>
+            </article>
+
+            <article class="post-item is-small pos-13">
+                <div class="post-thumb"><img src="/assets/images/1600_retouched_-09847-1.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">EAT</span>
+                        <h2 class="post-title">잔치엔 술이 빠질 수 없지, 선물용 전통주 8</h2>
+                        <p class="post-desc">귀한 술 마셔봤습니다</p>
+                        <span class="post-date">2026. 03. 05</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/editorb.jpeg" alt="김석준 에디터" class="editor-thumb">
+                        <span class="editor-name">김석준</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-14">
+                <div class="post-thumb"><img src="/assets/images/Apple-MacBook-Neo-color-lineup-260304-2048x1365.jpg" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">TECH</span>
+                        <h2 class="post-title">아이폰 17e부터 맥북 네오까지 3일간의 기록</h2>
+                        <p class="post-desc">애플이 이번 주에 발표한 제품들</p>
+                        <span class="post-date">2026. 03. 05</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/500_authorkudokun_profile.jpg" alt="이주형 에디터" class="editor-thumb">
+                        <span class="editor-name">이주형</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-item is-small pos-15">
+                <div class="post-thumb"><img src="/assets/images/book_top.webp" alt=""></div>
+                <div class="post-content">
+                    <div class="text-group">
+                        <span class="category">CULTURE</span>
+                        <h2 class="post-title">[book] 늙는 게 두려울 때 읽는 책 4</h2>
+                        <p class="post-desc">베스트셀러보다 더 재미있는 책 추천 시리즈</p>
+                        <span class="post-date">2026. 03. 04</span>
+                    </div>
+                    <div class="post-editor">
+                        <img src="/assets/images/13095.jpg" alt="기명균 에디터" class="editor-thumb">
+                        <span class="editor-name">기명균</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+    <footer>
+        <div class="footer-logo">
+            <img src="/assets/images/edit-logo.png" alt="로고">
+        </div>
+
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">EDITORS</a></li>
+                <li><a href="">NEWSLETTER</a></li>
+                <li><a href="">INSTAGRAM</a></li>
+                <li><a href="">TEFF</a></li>
+            </ul>
+        </nav>
+
+        <address class="footer-info">
+            <div class="contact-row">
+                <div class="contact-text">
+                    <span>광고 제휴 문의 | <a href="#">hello@the-edit.co.kr</a></span>
+                </div>
+                <div class="contact-text">
+                    <span>보도자료 | <a href="#">press@the-edit.co.kr</a></span>
+                </div>
+            </div>
+        
+            <p class="address-text">서울시 강남구 도산대로94길 19 진영빌딩 2층</p>
+            <p class="address-text">&copy; THE EDIT. ALL RIGHTS RESERVED.</p>
+        </address>
+    </footer>
+     
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
